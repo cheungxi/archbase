@@ -632,7 +632,7 @@ Booth乘法器由英国的Booth夫妇提出。按照8.3.1小节中的补码乘�
 
 Booth一位乘变换的公式推导如下：
 
-$$\begin{aligned}&\quad（-y_{7}\times 2^{7}+y_{6}\times 2……{6}+\ldots +y_{1}\times 2^{1}+y_{0}\times 2^{0}）\\
+$$\begin{aligned}&\quad（-y_{7}\times 2^{7}+y_{6}\times 2^{6}+\ldots +y_{1}\times 2^{1}+y_{0}\times 2^{0}）\\
 &=（-y_{7}\times 2^{7}+（y_{6}\times 2^{7}-y_{6}\times 2^{6}）+（y_{5}\times 2^{6}-y_{5}\times 2^{5}）+\ldots + \\ &\quad（y_{1}\times 2^{2}-y_{1}\times 2^{1}）+（y_{0}\times 2^{1}-y_{0}\times 2^{0}）+（0\times 2^{0}））\\
 &=（y_{6}-y_{7}）\times 2^{7}+（y_{5}-y_{6}）\times 2^{6}+\ldots +（y_{0}-y_{1}）\times 2^{1}+（y_{-1}-y_{0}）\times 2^{0}\end{aligned}$$
 
